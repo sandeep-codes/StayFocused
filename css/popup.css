@@ -1,0 +1,53 @@
+header {
+    font-size: 20;
+    font-family:sans-serif;
+    text-shadow: rgb(91, 202, 235) 2px 2px 5px;
+}
+label.time {
+    font-size: 50px;
+    padding-left: 20px;
+}
+label.distract {
+    font-size: 25px;
+    padding-left: 10px;
+}
+#numDistract {
+    font-weight: bold;
+}
+#minutes, #seconds {
+    padding-left:5px;
+}
+#changeState, #settingsButton {
+    padding: 5px;
+    border-radius: 7px;
+    border: 3px solid rgb(91, 202, 235);
+    box-shadow: 2px 2px 3px #888888;
+}
+header{
+    text-decoration-style: solid;
+}
+#changeState:hover, #settingsButton:hover{
+    color: white;
+    box-shadow: 2px 2px 500px #888888;
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-color: rgb(91, 202, 235);;
+}
+#changeState{
+    margin: 10px;
+    margin-left: 20px;
+}
+
+#settingsButton {
+    margin-left: 10px;
+}
+
+HTML {
+    /* font-family: "Plantino Linotype"; */
+    background-color: #d4e8ee;
+    background-image: url("../png/123.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 110px;
+    border-radius: 5px;
+}

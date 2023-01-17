@@ -1,0 +1,48 @@
+*{
+    margin-left: 5px;
+}
+h1{
+    display:blue;
+    font-size:40px;
+    padding: 5px;
+}
+h2 {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 350;
+}
+p {
+    font-size: 15px;
+}
+HTML {
+    background-color: #d4e8ee;
+    background-image: url("../png/120.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size:20px;
+}
+
+#inputEnter,#inputDeleteEnter{
+    color:rgb(91, 202, 235) ;
+    margin-top: 10px;
+    border: 2px solid rgb(88, 88, 88);
+    border-radius: 3px;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px #888888;
+}
+#inputEnter:hover,#inputDeleteEnter:hover{
+    background-color: rgb(91, 202, 235);
+    border: 2px solid rgb(91, 202, 235);
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 500px #888888;
+}
+#inputDeleteLink,#inputLink{
+    border-radius: 3px;
+    box-shadow: 0.5px 0.5px 2px #888888;
+}
+
+#blockedSites{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 19px;
+}
